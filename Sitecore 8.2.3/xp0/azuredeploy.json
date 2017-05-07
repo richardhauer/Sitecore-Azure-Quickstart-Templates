@@ -32,6 +32,10 @@
       "type": "string",
       "defaultValue": "[resourceGroup().location]"
     },
+    "location.search": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]"
+    },
     "single.hostingplan.name": {
       "type": "string",
       "defaultValue": "[concat(parameters('deploymentId'), '-single-hp')]"
@@ -406,7 +410,7 @@
       "type": "Microsoft.Search/searchServices",
       "apiVersion": "[variables('searchApiVersion')]",
       "name": "[variables('searchServiceNameTidy')]",
-      "location": "[parameters('location')]",
+      "location": "[parameters('location.search')]",
       "properties": {
         "sku": {
           "name": "[toLower(parameters('searchservice.skuname'))]"

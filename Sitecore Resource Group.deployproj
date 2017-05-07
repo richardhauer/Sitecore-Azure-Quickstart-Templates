@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>d6b67f6a-183c-400a-ba5b-2b89390aa953</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkIdentifier>Deployment</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>1.0</TargetFrameworkVersion>
+    <PrepareForBuildDependsOn>
+    </PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <Import Condition=" Exists('Deployment.targets') " Project="Deployment.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- vertag<:>start tokens<:>maj.min -->
+  <Import Condition=" Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets') " Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets" />
+  <!-- vertag<:>end -->
+  <ItemGroup>
+    <None Include="Deployment.targets">
+      <Visible>False</Visible>
+    </None>
+    <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <Content Include="DocumentDB.json" />
+    <Content Include="DocumentDB.parameters.json" />
+    <None Include="license.xml" />
+    <None Include="Sitecore 8.2.1\README.md" />
+    <None Include="Sitecore 8.2.1\xdb\azuredeploy.json" />
+    <None Include="Sitecore 8.2.1\xdb\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.1\xdb\README.md" />
+    <None Include="Sitecore 8.2.1\xm\azuredeploy.json" />
+    <None Include="Sitecore 8.2.1\xm\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.1\xm\README.md" />
+    <None Include="Sitecore 8.2.1\xp0\azuredeploy.json" />
+    <None Include="Sitecore 8.2.1\xp0\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.1\xp0\README.md" />
+    <None Include="Sitecore 8.2.1\xp\azuredeploy.json" />
+    <None Include="Sitecore 8.2.1\xp\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.1\xp\README.md" />
+    <None Include="Sitecore 8.2.3\.vs\config\applicationhost.config" />
+    <None Include="Sitecore 8.2.3\README.md" />
+    <None Include="Sitecore 8.2.3\xdb\azuredeploy.json" />
+    <None Include="Sitecore 8.2.3\xdb\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.3\xdb\README.md" />
+    <None Include="Sitecore 8.2.3\xm\azuredeploy.json" />
+    <None Include="Sitecore 8.2.3\xm\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.3\xm\README.md" />
+    <None Include="Sitecore 8.2.3\xp0\azuredeploy.json" />
+    <None Include="Sitecore 8.2.3\xp0\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.3\xp0\README.md" />
+    <None Include="Sitecore 8.2.3\xp\azuredeploy.json" />
+    <None Include="Sitecore 8.2.3\xp\azuredeploy.parameters.json" />
+    <None Include="Sitecore 8.2.3\xp\README.md" />
+    <None Include="Sitecore Azure Toolkit\Deploy-SitecoreARM.ps1" />
+    <None Include="Sitecore Azure Toolkit\login-deets.txt" />
+    <None Include="trendspot-823-xp0.parameters.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sitecore 8.2.3\.vs\Sitecore Resource Group\v14\" />
+  </ItemGroup>
+  <Target Name="GetReferenceAssemblyPaths" />
+</Project>

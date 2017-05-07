@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Sitecore Resource Group", "Sitecore Resource Group.deployproj", "{D6B67F6A-183C-400A-BA5B-2B89390AA953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore Azure Toolkit", "Sitecore Azure Toolkit", "{6B1C987D-25E0-4082-9D90-92D6F48FFB79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{ECD67B85-9615-4D44-9E2B-1042E3D9BF20}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sitecore Azure Toolkit\tools\Sitecore.Cloud.Cmdlets.psm1 = ..\Sitecore Azure Toolkit\tools\Sitecore.Cloud.Cmdlets.psm1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{3D45FCBA-FCDE-4FEE-A03C-E32ACB448E74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.2.1", "8.2.1", "{FA7B5AF6-C812-4C9F-90C9-9157D0B907E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cargopayloads", "cargopayloads", "{C5DCB74B-8EF0-4E62-9AF0-3434281515E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.ApplicationInsights.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.ApplicationInsights.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Common.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Common.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.DisableAnalytics.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.DisableAnalytics.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.HttpsRedirection.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.HttpsRedirection.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.IPSecurity.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.IPSecurity.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Redis_CD.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Redis_CD.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_CD.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_CD.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_CM.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_CM.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_PRC.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_PRC.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_REP.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_REP.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_Single.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.RoleSpecific_Single.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Search.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Search.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Security.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Security.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Security_CD.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Security_CD.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Thundercracker.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Thundercracker.sccpl
+		..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Thundercracker_CD.sccpl = ..\Sitecore Azure Toolkit\resources\8.2.1\cargopayloads\Sitecore.Cloud.Thundercracker_CD.sccpl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configs", "configs", "{77F01294-5C5A-414E-8717-7C4D213FAACD}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sitecore Azure Toolkit\resources\8.2.1\configs\common.packaging.config.json = ..\Sitecore Azure Toolkit\resources\8.2.1\configs\common.packaging.config.json
+		..\Sitecore Azure Toolkit\resources\8.2.1\configs\xdb1.packaging.config.json = ..\Sitecore Azure Toolkit\resources\8.2.1\configs\xdb1.packaging.config.json
+		..\Sitecore Azure Toolkit\resources\8.2.1\configs\xm1.packaging.config.json = ..\Sitecore Azure Toolkit\resources\8.2.1\configs\xm1.packaging.config.json
+		..\Sitecore Azure Toolkit\resources\8.2.1\configs\xp0.packaging.config.json = ..\Sitecore Azure Toolkit\resources\8.2.1\configs\xp0.packaging.config.json
+		..\Sitecore Azure Toolkit\resources\8.2.1\configs\xp1.packaging.config.json = ..\Sitecore Azure Toolkit\resources\8.2.1\configs\xp1.packaging.config.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "msdeployxmls", "msdeployxmls", "{20AA7B27-15B1-4452-8CAC-34A6310248C0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.PRC.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.PRC.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.PRC.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.PRC.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.REP.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.REP.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.REP.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xDB1.REP.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CD.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CD.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CD.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CD.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CM.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CM.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CM.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xM1.CM.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP0.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP0.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP0.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP0.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CD.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CD.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CD.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CD.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CM.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CM.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CM.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.CM.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.PRC.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.PRC.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.PRC.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.PRC.parameters.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.REP.archive.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.REP.archive.xml
+		..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.REP.parameters.xml = ..\Sitecore Azure Toolkit\resources\8.2.1\msdeployxmls\xP1.REP.parameters.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B67F6A-183C-400A-BA5B-2B89390AA953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B67F6A-183C-400A-BA5B-2B89390AA953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B67F6A-183C-400A-BA5B-2B89390AA953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B67F6A-183C-400A-BA5B-2B89390AA953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECD67B85-9615-4D44-9E2B-1042E3D9BF20} = {6B1C987D-25E0-4082-9D90-92D6F48FFB79}
+		{3D45FCBA-FCDE-4FEE-A03C-E32ACB448E74} = {6B1C987D-25E0-4082-9D90-92D6F48FFB79}
+		{FA7B5AF6-C812-4C9F-90C9-9157D0B907E3} = {3D45FCBA-FCDE-4FEE-A03C-E32ACB448E74}
+		{C5DCB74B-8EF0-4E62-9AF0-3434281515E7} = {FA7B5AF6-C812-4C9F-90C9-9157D0B907E3}
+		{77F01294-5C5A-414E-8717-7C4D213FAACD} = {FA7B5AF6-C812-4C9F-90C9-9157D0B907E3}
+		{20AA7B27-15B1-4452-8CAC-34A6310248C0} = {FA7B5AF6-C812-4C9F-90C9-9157D0B907E3}
+	EndGlobalSection
+EndGlobal
