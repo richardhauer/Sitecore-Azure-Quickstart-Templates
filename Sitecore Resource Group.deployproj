@@ -25,12 +25,12 @@
   <Import Condition=" Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets') " Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets" />
   <!-- vertag<:>end -->
   <ItemGroup>
+    <None Include="Demo\Deploy-SitecoreARM.ps1" />
+    <None Include="Demo\login-deets.txt" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
     <Content Include="Deploy-AzureResourceGroup.ps1" />
-    <Content Include="DocumentDB.json" />
-    <Content Include="DocumentDB.parameters.json" />
     <None Include="license.xml" />
     <None Include="Sitecore 8.2.1\README.md" />
     <None Include="Sitecore 8.2.1\xdb\azuredeploy.json" />
@@ -59,9 +59,8 @@
     <None Include="Sitecore 8.2.3\xp\azuredeploy.json" />
     <None Include="Sitecore 8.2.3\xp\azuredeploy.parameters.json" />
     <None Include="Sitecore 8.2.3\xp\README.md" />
-    <None Include="Sitecore Azure Toolkit\Deploy-SitecoreARM.ps1" />
-    <None Include="Sitecore Azure Toolkit\login-deets.txt" />
     <None Include="trendspot-823-xp0.parameters.json" />
+    <None Include="XP0-Dependencies.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sitecore 8.2.3\.vs\Sitecore Resource Group\v14\" />

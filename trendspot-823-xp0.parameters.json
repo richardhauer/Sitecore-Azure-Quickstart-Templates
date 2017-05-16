@@ -3,22 +3,22 @@
     "value": "trendspot"
   },
   "location.search": {
-    "value": "australiaeast"
+    "value": "southeastasia"
   },
   "sitecore.admin.password": {
-    "value": "Trendspot2017"
+    "value": "b"
   },
   "analytics.mongodb.connectionstring": {
-    "value": "mongodb://trendspot-xdb:iPK8FbYlahET6KqNCDJdWOT4TCuJECV2fx6zWdYtwNNgS6n0CZJW7RBUA5PFcZtKeOZTQmGqu8JS0776PpOHlg==@trendspot-xdb.documents.azure.com:10250/analytics?ssl=true&sslverifycertificate=false"
+    "value": "mongodb://trendspot-xdb:esNlx1CCBeGgWaqz7GR2aj5strIhIwyWPUMkuhubYEYnaRN8A6iHLdac3e7lTdAoWFxcxkzRv1JxDVWlcO6ehg==@trendspot-xdb.documents.azure.com:10250/analytics?ssl=true&sslverifycertificate=false"
   },
   "tracking.live.mongodb.connectionstring": {
-    "value": "mongodb://trendspot-xdb:iPK8FbYlahET6KqNCDJdWOT4TCuJECV2fx6zWdYtwNNgS6n0CZJW7RBUA5PFcZtKeOZTQmGqu8JS0776PpOHlg==@trendspot-xdb.documents.azure.com:10250/tracking_live?ssl=true&sslverifycertificate=false"
+    "value": "mongodb://trendspot-xdb:esNlx1CCBeGgWaqz7GR2aj5strIhIwyWPUMkuhubYEYnaRN8A6iHLdac3e7lTdAoWFxcxkzRv1JxDVWlcO6ehg==@trendspot-xdb.documents.azure.com:10250/tracking_live?ssl=true&sslverifycertificate=false"
   },
   "tracking.history.mongodb.connectionstring": {
-    "value": "mongodb://trendspot-xdb:iPK8FbYlahET6KqNCDJdWOT4TCuJECV2fx6zWdYtwNNgS6n0CZJW7RBUA5PFcZtKeOZTQmGqu8JS0776PpOHlg==@trendspot-xdb.documents.azure.com:10250/tracking_history?ssl=true&sslverifycertificate=false"
+    "value": "mongodb://trendspot-xdb:esNlx1CCBeGgWaqz7GR2aj5strIhIwyWPUMkuhubYEYnaRN8A6iHLdac3e7lTdAoWFxcxkzRv1JxDVWlcO6ehg==@trendspot-xdb.documents.azure.com:10250/tracking_history?ssl=true&sslverifycertificate=false"
   },
   "tracking.contact.mongodb.connectionstring": {
-    "value": "mongodb://trendspot-xdb:iPK8FbYlahET6KqNCDJdWOT4TCuJECV2fx6zWdYtwNNgS6n0CZJW7RBUA5PFcZtKeOZTQmGqu8JS0776PpOHlg==@trendspot-xdb.documents.azure.com:10250/tracking_contact?ssl=true&sslverifycertificate=false"
+    "value": "mongodb://trendspot-xdb:esNlx1CCBeGgWaqz7GR2aj5strIhIwyWPUMkuhubYEYnaRN8A6iHLdac3e7lTdAoWFxcxkzRv1JxDVWlcO6ehg==@trendspot-xdb.documents.azure.com:10250/tracking_contact?ssl=true&sslverifycertificate=false"
   },
   "sqlserver.login": {
     "value": "sqladmin"
@@ -27,6 +27,6 @@
     "value": "Pa55w0rd$"
   },
   "single.msdeploy.packageurl": {
-    "value": "https://trendspot.blob.core.windows.net/webdeploy/Sitecore%208.2%20rev.%20170407_single.scwdp.zip?sv=2015-04-05&sr=b&sig=Y0YKGXMU%2BNk45Fny2YOXupo0TzHzJ9aQZiyeCmm9%2BqM%3D&se=2017-08-31T16%3A01%3A09Z&sp=r"
+    "value": "https://trendspot.blob.core.windows.net/webdeploy/Sitecore%2525208.2%252520rev.%252520170407_single.scwdp.zip"
   }
 }

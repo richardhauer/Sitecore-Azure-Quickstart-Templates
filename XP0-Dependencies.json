@@ -1,0 +1,43 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+  },
+  "variables": {
+  },
+  "resources": [
+    {
+      "name": "trendspot",
+      "type": "Microsoft.Storage/storageAccounts",
+      "location": "southeastasia",
+      "apiVersion": "2016-01-01",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "dependsOn": [],
+      "tags": {
+        "displayName": "trendspot"
+      },
+      "kind": "Storage"
+    },
+    {
+      "name": "trendspot-xdb",
+      "type": "Microsoft.DocumentDB/databaseAccounts",
+      "kind": "MongoDB",
+      "apiVersion": "2015-04-08",
+      "location": "southeastasia",
+      "properties": {
+        "databaseAccountOfferType": "Standard",
+        "locations": [
+          {
+            "id": "trendspot-xdb-southeastasia",
+            "failoverPriority": 0,
+            "locationName": "southeastasia"
+          }
+        ]
+      }
+    }
+  ],
+  "outputs": {
+  }
+}

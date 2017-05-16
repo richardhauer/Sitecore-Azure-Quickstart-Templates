@@ -57,7 +57,7 @@
     },
     "sqlserver.password": {
       "type": "securestring",
-      "minLength": 8
+      "minLength": 1
     },
     "web.sqlserver.name": {
       "type": "string",
@@ -70,7 +70,7 @@
     },
     "web.sqlserver.password": {
       "type": "securestring",
-      "minLength": 8,
+      "minLength": 1,
       "defaultValue": "[parameters('sqlserver.password')]"
     },
     "single.core.sqldatabase.username": {
@@ -80,7 +80,7 @@
     },
     "single.core.sqldatabase.password": {
       "type": "securestring",
-      "minLength": 8,
+      "minLength": 1,
       "defaultValue": "[concat(toUpper(uniqueString('single-core')), '@', uniqueString(parameters('sqlserver.password')))]"
     },
     "single.master.sqldatabase.username": {
@@ -90,7 +90,7 @@
     },
     "single.master.sqldatabase.password": {
       "type": "securestring",
-      "minLength": 8,
+      "minLength": 1,
       "defaultValue": "[concat(toUpper(uniqueString('single-master')), '@', uniqueString(parameters('sqlserver.password')))]"
     },
     "single.web.sqldatabase.username": {
@@ -100,7 +100,7 @@
     },
     "single.web.sqldatabase.password": {
       "type": "securestring",
-      "minLength": 8,
+      "minLength": 1,
       "defaultValue": "[concat(toUpper(uniqueString('single-web')), '@', uniqueString(parameters('sqlserver.password')))]"
     },
     "single.reporting.sqldatabase.username": {
@@ -110,7 +110,7 @@
     },
     "single.reporting.sqldatabase.password": {
       "type": "securestring",
-      "minLength": 8,
+      "minLength": 1,
       "defaultValue": "[concat(toUpper(uniqueString('single-reporting')), '@', uniqueString(parameters('sqlserver.password')))]"
     },
     "core.sqldatabase.name": {
@@ -156,7 +156,7 @@
     },
     "single.hostingplan.skuname": {
       "type": "string",
-      "defaultValue": "S1"
+      "defaultValue": "S3"
     },
     "single.hostingplan.skucapacity": {
       "type": "int",
@@ -184,7 +184,7 @@
     },
     "sqldatabase.serviceobjectivelevel": {
       "type": "string",
-      "defaultValue": "S1"
+      "defaultValue": "S3"
     },
     "searchservice.replicacount": {
       "type": "int",
@@ -205,7 +205,7 @@
     },
     "sitecore.admin.password": {
       "type": "securestring",
-      "minLength": 8,
+      "minLength": 1,
       "maxLength": 128
     }
   },
@@ -299,7 +299,7 @@
         "version": "[parameters('sqlserver.version')]"
       },
       "name": "[variables('dbServerNameTidy')]",
-      "location": "[parameters('location')]",
+      "location": "southeastasia",
       "tags": {
         "provider": "[parameters('sitecoreTags').provider]"
       },
@@ -324,7 +324,7 @@
             "requestedServiceObjectiveName": "[parameters('sqldatabase.serviceobjectivelevel')]"
           },
           "name": "[variables('coreDbNameTidy')]",
-          "location": "[parameters('location')]",
+          "location": "southeastasia",
           "dependsOn": [ "[resourceId('Microsoft.Sql/servers', variables('dbServerNameTidy'))]" ],
           "tags": {
             "provider": "[parameters('sitecoreTags').provider]"
@@ -340,7 +340,7 @@
             "requestedServiceObjectiveName": "[parameters('sqldatabase.serviceobjectivelevel')]"
           },
           "name": "[variables('masterDbNameTidy')]",
-          "location": "[parameters('location')]",
+          "location": "southeastasia",
           "dependsOn": [ "[resourceId('Microsoft.Sql/servers', variables('dbServerNameTidy'))]" ],
           "tags": {
             "provider": "[parameters('sitecoreTags').provider]"
@@ -356,7 +356,7 @@
             "requestedServiceObjectiveName": "[parameters('sqldatabase.serviceobjectivelevel')]"
           },
           "name": "[variables('repDbNameTidy')]",
-          "location": "[parameters('location')]",
+          "location": "southeastasia",
           "dependsOn": [ "[resourceId('Microsoft.Sql/servers', variables('dbServerNameTidy'))]" ],
           "tags": {
             "provider": "[parameters('sitecoreTags').provider]"
@@ -373,7 +373,7 @@
         "version": "[parameters('sqlserver.version')]"
       },
       "name": "[variables('webDbServerNameTidy')]",
-      "location": "[parameters('location')]",
+      "location": "southeastasia",
       "tags": {
         "provider": "[parameters('sitecoreTags').provider]"
       },
@@ -398,7 +398,7 @@
             "requestedServiceObjectiveName": "[parameters('sqldatabase.serviceobjectivelevel')]"
           },
           "name": "[variables('webDbNameTidy')]",
-          "location": "[parameters('location')]",
+          "location": "southeastasia",
           "dependsOn": [ "[resourceId('Microsoft.Sql/servers', variables('webDbServerNameTidy'))]" ],
           "tags": {
             "provider": "[parameters('sitecoreTags').provider]"
